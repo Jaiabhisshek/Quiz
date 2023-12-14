@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Itim";
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#darkmode{
+    align-self: flex-end;
+
+}
+#darkmodebtn{
+    height: 10px;
+    width: 50px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#optionBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.select{
+    margin-top: 35px;
+}
+
+.options{
+    border: 2px solid black;
+    height: 80px;
+    width: 800px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#highlight{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    height: auto;
+    
+}
+
+#lightbtn{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+}
